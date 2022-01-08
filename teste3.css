@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap');
+
+body{
+
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    background-color: burlywood;
+}
+
+.container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.coin-box{
+    border-radius: 15px;
+    background-color: rgba(215, 231, 215, 0.459);
+    width: 350px;
+    max-width: 350px;
+    margin: 20px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 45px;
+}
+
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    width: 1125px;
+    background-color: rgba(215, 231, 215, 0.459);
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    margin-top: -20px;
+}
+
+img{
+    display: block;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+input{
+    border-radius: 5px;
+    background-color: burlywood;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    color: black;
+    font-weight: bold;
+
+}
+button{
+    background-color: rgba(215, 231, 215, 0.459);
+    border-radius: 5px;
+    font-family:'IBM Plex Sans Thai Looped', sans-serif;
+    font-weight: bold;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    width: 1125px;
+    background-color: rgba(215, 231, 215, 0.459);
+    text-align: center;
+    font-size: 50px;
+}
+
+body{
+    
+    /* display: flex;
+    justify-content: left;
+*/
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    background: white;
+    max-height: fit-content;
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    height: 100vh; 
+    justify-content: right;
+    background-color: white;
+    float: right;
+}
+.maintext{
+    margin-top:100px;
+    text-align: center;
+    background-color: blue;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 300px;
+}
+.navbar{
+    align-items: left;
+    margin-left: 10px;
+    background-color: black;
+   
+}
+.box{
+    width:65px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor:pointer;
+    transition: all .4s ease;
+}
+.box:hover{
+    width:200px;
+    background: #2081E2;
+    border-radius: 35px;
+    color: #fff;
+    box-shadow: 0 0 50px #1d73ac;
+}
+.box:nth-child(2):hover{
+    background:#c32aa3 ;
+    box-shadow: 0 0 50px  #b315917c;
+    
+}
+
+.box:nth-child(3):hover{
+    background: #3B5998;
+    box-shadow: 0 0 50px #5f8ef3;
+}
+.box:nth-child(4):hover{
+    background: black ;
+    box-shadow: 0 0 50px  white;
+}
+
+.navbar p{
+    transform: translate(60px);
+}
+
+.box .icon{
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+.opensea{
+    background-color: #2081E2;
+}
+.instagram{
+    background-color: #c32aa3;
+    
+}
+.facebook{
+    background-color: #3B5998;
+}
+.tiktok{
+    background-color: black;
+}
+/* .box:hover .icon{
+    background: black;
+    color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.26);
+} */
+a {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;  
+}
+a:hover{
+    color: white;
+}
+p{
+    margin-bottom: 10px;
+}

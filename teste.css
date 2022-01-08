@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500&display=swap');
+
+
+/* Grid */
+
+
+
+.logo {
+	grid-area: logo;
+    background-color: blue;
+    text-align: center;
+    padding-top: 5%;
+    border-radius: 800px;
+    
+    
+}
+.img_logo{
+    
+    justify-content: center;
+    width:170px;
+    border-radius: 600px;
+
+
+}
+.flag{
+    grid-area: flag;
+    text-align: center;
+    justify-content: center;
+    padding-top: 7%;
+    
+}
+.img_brasil{
+    width: 210px;
+}
+/* .fundo{
+    width:2000px;
+} */
+
+.nav {
+	grid-area: nav;
+    background-color: red;
+    /* padding-top: 3%; */
+    border-radius: 30px;
+
+}
+
+.content {
+	grid-area: content;
+    background-color: green;
+    /* padding-top: 7%; */
+    position: relative;
+    max-width: fit-content;
+    
+
+}
+
+.sidenav {
+	grid-area: sidenav;
+    background-color: #E2FDFF;
+    max-width: relative;
+    font-size: 30px;
+    justify-content: right;
+    padding-left: 20%;
+    padding-top: 7%;
+    
+}
+
+.advert {
+	grid-area: advert;
+    max-width: fit-content;
+    justify-content: right;
+    line-height: 50px;
+}
+
+.footer {
+	grid-area: footer;
+    background-color: blue;
+    text-align: left;
+}
+
+
+
+.grid-template-areas-4 {
+    display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: 30% 70% 10%;
+	grid-template-areas:
+		"logo nav nav flag"
+		"sidenav content content advert"
+		"footer footer footer footer"
+		;
+}
+
+
+
+/* Grid Item */
+.item {
+	margin: 5px;
+	
+	text-align: center;
+	font-size: 1.5em;
+    background-color: #E2FDFF;
+    border-radius: 30px;
+
+    
+    
+}
+
+.grid {
+	
+	margin: 10px auto;
+	border: 0px solid #ccc;
+    
+    
+}
+
+p{
+    
+    position:relative;
+    
+}
+h1 {
+	text-align: center;
+	font-size: 0.75em;
+	font-weight: normal;
+    
+    
+}
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size:60px;;
+
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background: #788BFF;
+    max-height: fit-content;
+    /* background-image: url("fundo.jpg"); */
+    
+}
+
+body > div {
+	padding: 40px 0;
+}
+
+body > div:nth-of-type(even) {
+	background: rgba(0,0,0,.03);
+}
+
+body > div > img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+    
+}
+
+.navbar{
+    padding-top: 20px;
+    align-items: left;
+    margin-left: 10px;
+    /* width: relative; */
+    background-color: #E2FDFF;
+    border-radius: 30px;
+
+   
+}
+.box{
+    width:200px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor:pointer;
+    transition: all .4s ease;
+    color: white;
+    
+}
+.box:hover{
+    width:200px;
+    background: #2081E2;
+    border-radius: 35px;
+    color: #fff;
+    box-shadow: 0 0 50px #1d73ac;
+    
+    
+
+}
+.box:nth-child(2):hover{
+    background:#c32aa3 ;
+    box-shadow: 0 0 50px  #b315917c;
+    
+}
+
+.box:nth-child(3):hover{
+    background: #3B5998;
+    box-shadow: 0 0 50px #5f8ef3;
+}
+.box:nth-child(4):hover{
+    background: black ;
+    box-shadow: 0 0 50px  white;
+}
+
+.box .icon{
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+    
+}
+.opensea{
+    background-color: #2081E2;
+}
+.instagram{
+    background-color: #c32aa3;
+    
+}
+.facebook{
+    background-color: #3B5998;
+    
+}
+.tiktok{
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;  
+}
+a:hover{
+    color: white;
+}
+p{
+    margin-bottom: 40px;
+    margin-left: 60px;
+    color: black;
+ 
+   
+}
+p:hover{
+    color: white;
+}
