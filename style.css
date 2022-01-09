@@ -18,8 +18,8 @@
 .img_logo{
     
     justify-content: center;
-    width:170px;
-    border-radius: 600px;
+    width: 130px;
+    border-radius: 100px;
 
 
 }
@@ -27,11 +27,12 @@
     grid-area: flag;
     text-align: center;
     justify-content: center;
-    padding-top: 7%;
+    padding-top: 7.5%;
     
 }
 .img_brasil{
     width: 210px;
+    
 }
 /* .fundo{
     width:2000px;
@@ -39,19 +40,14 @@
 
 .nav {
 	grid-area: nav;
-    background-color: red;
-    /* padding-top: 3%; */
     border-radius: 30px;
-
 }
 
 .content {
+
 	grid-area: content;
-    background-color: green;
-    /* padding-top: 7%; */
     position: relative;
     max-width: fit-content;
-    
 
 }
 
@@ -60,8 +56,9 @@
     background-color: #E2FDFF;
     max-width: relative;
     font-size: 30px;
-    justify-content: right;
-    padding-left: 20%;
+    /* justify-content: center;
+    text-align: center; */
+    /* padding-left: 1%; */
     padding-top: 7%;
     
 }
@@ -83,7 +80,7 @@
 
 .grid-template-areas-4 {
     display: grid;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: 25% 25% 25% 25%;
 	grid-template-rows: 30% 70% 10%;
 	grid-template-areas:
 		"logo nav nav flag"
@@ -113,6 +110,7 @@
 	border: 0px solid #ccc;
     
     
+    
 }
 
 p{
@@ -126,11 +124,15 @@ h1 {
 	font-weight: normal;
     
     
+    
 }
 h3{
     font-family: 'Bebas Neue', cursive;
     font-size:60px;;
 
+}
+h2{
+    text-decoration: underline;
 }
 
 body {
@@ -138,17 +140,18 @@ body {
     font-family: 'Roboto', sans-serif;
     background: #788BFF;
     max-height: fit-content;
+    
     /* background-image: url("fundo.jpg"); */
     
 }
 
-body > div {
+/* body > div {
 	padding: 40px 0;
-}
+} */
 
-body > div:nth-of-type(even) {
+/* body > div:nth-of-type(even) {
 	background: rgba(0,0,0,.03);
-}
+} */
 
 body > div > img {
 	display: block;
@@ -158,12 +161,14 @@ body > div > img {
 }
 
 .navbar{
-    padding-top: 20px;
-    align-items: left;
-    margin-left: 10px;
-    /* width: relative; */
+    /* padding-top: %; */
+    padding-top: 8px;
+    align-items: center;
+    margin-left: 13%;
+    width: relative;
     background-color: #E2FDFF;
     border-radius: 30px;
+    
 
    
 }
